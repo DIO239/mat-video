@@ -1,0 +1,6 @@
+<button mat-button [matMenuTriggerFor]="menu">Speed</button>
+<mat-menu #menu="matMenu" [overlapTrigger]="false">
+  <button mat-menu-item (click)="speedControl(1)">х1</button>
+  <button mat-menu-item (click)="speedControl(1.25)">х1.25</button>
+  <button mat-menu-item (click)="speedControl(1.5)">x1.5</button>
+</mat-menu>

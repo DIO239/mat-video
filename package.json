@@ -1,7 +1,7 @@
 {
   "name": "mat-video-app",
   "version": "2.8.1",
-  "description": "",
+  "description": "**July 2020 - This project is no longer maintained**",
   "scripts": {
     "ng": "ng",
     "prettier": "prettier --write \"**/*.{scss,ts,component.html}\"",
@@ -69,5 +69,16 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIO239/mat-video.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIO239/mat-video/issues"
+  },
+  "homepage": "https://github.com/DIO239/mat-video#readme"
 }
